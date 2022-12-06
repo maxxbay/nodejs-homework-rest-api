@@ -13,7 +13,7 @@ router.post(
 );
 router.post(
   "/login",
-  validateBody(schemas.registerSchema),
+  // validateBody(schemas.registerSchema),
   ctrlWrapper(ctrl.login)
 );
 
